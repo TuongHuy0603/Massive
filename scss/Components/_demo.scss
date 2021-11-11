@@ -1,0 +1,41 @@
+.demo {
+  padding: $pd-4 0;
+
+  .demo__bot {
+    position: relative;
+    height: 263px;
+    iframe {
+      width: 468px;
+      position: absolute;
+      height: 263px;
+      left: 320px;
+      top: 0px;
+    }
+  }
+
+  @include responsive("extra-large") {
+    .demo__bot {
+      iframe {
+        left: 245px;
+      }
+    }
+  }
+  @include responsive("medium") {
+    .demo__bot {
+      iframe {
+        left: 16%;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .demo__bot {
+      iframe {
+        left: 5%;
+        width: 350px;
+
+        height: 245px;
+      }
+    }
+  }
+}

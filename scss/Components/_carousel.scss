@@ -1,0 +1,63 @@
+.carouselms {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  .carousel__content {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+
+    h1 {
+      letter-spacing: 2px;
+      @include styleText($color-black0, $fs-3, $fw-1);
+      margin-bottom: $mg-2;
+      text-transform: uppercase;
+    }
+    span {
+      @include styleText($color-black0, $fs-2, $fw-1);
+    }
+    p {
+      @include styleText($color-black0, $fs-0, $fw-1);
+      margin-bottom: $mg-2;
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    h1 {
+      font-size: $fs-2 + 2;
+    }
+    span {
+      font-size: $fs-1;
+    }
+    .item1 {
+      height: 664px;
+    }
+    .item2 {
+      height: 664px;
+    }
+    .item3 {
+      height: 664px;
+    }
+  }
+}
+.item1 {
+  background: url(../../img/bs1.jpg);
+  height: 891px;
+}
+.item2 {
+  background: url(../../img/bs2.jpg);
+
+  height: 891px;
+}
+.item3 {
+  background: url(../../img/bs3.jpg);
+  height: 891px;
+  .carousel__content {
+    animation-delay: 1s;
+    h1,
+    span,
+    p {
+      color: #fff !important;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "./Helpers/variables";
+@import "./Helpers/mixin";
+
+// vendors
+
+@import "./base/reset";
+@import "./base/customize";
+
+@import "./Layout/header";
+@import "./Layout/start";
+@import "./Layout/skills";
+@import "./Layout/team";
+@import "./Layout/portfolio";
+@import "./Layout/services";
+@import "./Layout/testimonial";
+@import "./Layout/feature";
+@import "./Layout/blog";
+@import "./Layout/price";
+@import "./Layout/contact";
+
+@import "./Layout/footer";
+
+@import "./Components/carousel";
+@import "./Components/button";
+@import "./Components/promotion";
+@import "./Components/factor";
+@import "./Components/review";
+@import "./Components/demo";
+@import "./Components/new";
+@import "./Components/subcribe";
+@import "./Components/client";
+@import "./Components/address";
+@import "./Components/totop";
+@import "./Pages/home";
+
+// theme

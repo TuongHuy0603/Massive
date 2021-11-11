@@ -1,0 +1,57 @@
+.promotion {
+  background: #222;
+  padding: $pd-3 + 10 0;
+  .promotion__content {
+    display: flex;
+  }
+  .promotion__left {
+    flex-wrap: nowrap;
+    color: white;
+    padding-right: 200px;
+    p {
+      font-size: $fs-0 - 1;
+      margin: 0;
+      color: white;
+    }
+    h3 {
+      span {
+        color: $color-white0;
+      }
+    }
+  }
+  .promotion__right {
+    a {
+      font-size: $fs-0 - 1;
+      padding: $pd-1 $pd-2;
+
+      display: flex;
+      align-items: center;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.2);
+      transition: all 0.5s;
+      color: white;
+      &:hover {
+        text-decoration: none;
+        background: $color-white0;
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .promotion__right {
+      padding: 0 $pd-2;
+      a {
+        margin-top: $mg-1;
+        justify-content: center;
+        width: 50%;
+        text-align: center;
+      }
+    }
+    .promotion__left {
+      padding: 0 $pd-2;
+      h3 {
+        font-size: $fs-1;
+        letter-spacing: 0;
+      }
+    }
+  }
+}

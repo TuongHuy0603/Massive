@@ -1,0 +1,35 @@
+.review {
+  background: url(../../img/14.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+  .item {
+    padding: $pd-4 0;
+    .item__img {
+      img {
+        text-align: center;
+        height: 100px;
+        width: auto;
+        border-radius: 50%;
+        margin: 0 auto $mg-2 + 20;
+      }
+    }
+    p {
+      width: 60%;
+      margin: 0 auto;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 30px;
+      color: white;
+    }
+  }
+  .review__info {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+
+    font-size: 14px;
+  }
+}

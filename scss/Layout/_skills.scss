@@ -1,0 +1,104 @@
+.skills {
+  color: white;
+  background: url(../../img/4.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  position: relative;
+  .skills__overlay {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .container {
+    padding: $pd-4 0;
+    position: relative;
+  }
+  .col-lg-6 {
+    align-items: center;
+    display: flex;
+    .skills__left {
+      font-size: $fs-2;
+      letter-spacing: 4px;
+    }
+    .skills__right {
+      z-index: 10;
+      padding: 0 $pd-2;
+      .skills__heading {
+        h4 {
+          letter-spacing: 2px;
+          font-size: $fs-1;
+          margin: 0 0 $mg-2;
+        }
+        p {
+          font-size: $fs-0;
+          margin: 0 0 $mg-2;
+        }
+      }
+      .skills__bar {
+        padding-top: $pd-2;
+        .progress {
+          color: black !important;
+
+          margin: $mg-0 0 $mg-2 + 20;
+          border-radius: 0;
+          background: #606060;
+          overflow: visible;
+
+          .progress-bar {
+            position: relative;
+            background: white;
+            p {
+              color: black;
+              text-align: left;
+              padding-left: 5px;
+              font-size: $fs-0 - 5;
+              margin: 0;
+            }
+            span {
+              color: black;
+              position: absolute;
+              background: #a4a4a4;
+              border-radius: 30px;
+              padding: 0 8px;
+              right: -5px;
+              top: -28px;
+              &::before {
+                content: "";
+                width: 5px;
+                height: 5px;
+                position: absolute;
+                transform: rotate(45deg);
+                border-bottom: 1px solid #a4a4a4;
+                background: #a4a4a4;
+                left: 15px;
+                bottom: -2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .skills__overlay {
+      background: none;
+    }
+    .skills__left {
+      h3 {
+        font-size: $fs-1;
+        text-align: center;
+        padding: $pd-4 $pd-2;
+        letter-spacing: 6px;
+      }
+    }
+    .skills__right {
+      p {
+        line-height: 30px;
+      }
+    }
+  }
+}

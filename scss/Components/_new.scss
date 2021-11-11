@@ -1,0 +1,53 @@
+.new {
+  .new__content {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    h3 {
+      margin: 0 0 30px 0;
+      color: white;
+      font-weight: normal;
+      line-height: 1.5;
+      font-size: $fs-2;
+      margin-bottom: $mg-2;
+      letter-spacing: 2px;
+      a {
+        color: white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    p {
+      margin: 0 0 30px;
+      color: white;
+      font-size: $fs-0;
+      line-height: 30px;
+    }
+
+    .new__left {
+      background: url(../../img/p10.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 10% 5%;
+    }
+    .new__right {
+      background: url(../../img/p11.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 10% 5%;
+    }
+  }
+  @include responsive("medium") {
+    .demo__bot {
+      iframe {
+        left: 16%;
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .row {
+      width: 100%;
+    }
+  }
+}

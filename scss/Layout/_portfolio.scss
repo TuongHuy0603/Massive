@@ -1,0 +1,144 @@
+.portfolio {
+  padding: $pd-4 $pd-2;
+
+  .nav-link {
+    transition: all 0.5s;
+  }
+  .portfolio__top {
+    text-align: center;
+    margin-bottom: $mg-3;
+    h3 {
+      color: $color-black0;
+    }
+    p {
+      width: 60%;
+      margin: 0 auto;
+      color: #7e7e7e;
+      line-height: 25px;
+      padding-top: $pd-2;
+    }
+  }
+  .portfolio__bot {
+    ul {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      color: #a9a8a8;
+      background: transparent;
+      a {
+        color: #a9a8a8;
+        margin: 0 15px;
+        /* font-family: 'Abel', sans-serif; */
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        padding: 0;
+        font-size: 14px;
+      }
+    }
+    .row {
+      .col-lg-3 {
+        padding: $pd-0;
+        &:hover .portfololio__hover {
+          opacity: 1;
+          .portfolio__ht {
+            transform: translateY(30%);
+          }
+          .portfolio__hb {
+            transform: translateY(-85%);
+          }
+        }
+
+        .portfolio__thumb {
+          position: relative;
+        }
+        a {
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .portfololio__hover {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          border: 20px solid rgba(0, 0, 0, 0.1);
+          background-color: rgba(255, 255, 255, 0.9);
+          text-align: center;
+          opacity: 0;
+          transition: all 0.5s;
+
+          .portfolio__hi {
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+
+            transition: all 0.3s;
+
+            // opacity: 0;
+
+            .portfolio__ht {
+              position: absolute;
+              font-size: $fs-3;
+              top: 25%;
+              left: 45%;
+
+              transition: all 0.3s;
+              i {
+                color: $color-black0;
+                font-size: $fs-3 - 1;
+              }
+            }
+            .portfolio__hb {
+              left: 33%;
+              position: absolute;
+              bottom: 30px;
+              transition: all 0.3s;
+              h4 {
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                font-size: 14px;
+
+                a {
+                  color: #222;
+                  text-decoration: none;
+                  &:hover {
+                    color: $color-white0;
+                  }
+                }
+              }
+              a {
+                text-decoration: none;
+                p {
+                  &:hover {
+                    color: $color-white0;
+                  }
+                }
+              }
+              p {
+                margin-bottom: 0;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #757575;
+                font-size: 12px;
+
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .portfolio__bot {
+      ul {
+        a {
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}

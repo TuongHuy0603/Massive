@@ -1,0 +1,38 @@
+$color-black0: #333;
+$color-yello0: #d6b161;
+$color-white0: #d6b161;
+$color-gray0: #e1e1e1;
+$color-white1: #e9e9e9;
+$color-gray1: #7e7e7e;
+
+$fs-0: 15px;
+$fs-1: 18px;
+$fs-2: 24px;
+$fs-3: 36px;
+$fs-4: 13px;
+
+$fw-0: 300;
+
+$fw-1: 400;
+$fw-2: 700;
+
+$pd-0: 10px;
+$pd-1: 15px;
+$pd-2: 30px;
+$pd-3: 50px;
+$pd-4: 100px;
+
+$line-height-0: 1.5;
+
+$mg-0: 10px;
+$mg-1: 20px;
+$mg-2: 30px;
+$mg-3: 100px;
+
+$breakpoints: (
+  "screen-1": 1350px,
+  "extra-large": 1200px,
+  "large": 992px,
+  "medium": 768px,
+  "small": 576px,
+);

@@ -1,0 +1,39 @@
+.contact {
+  padding: $pd-4 0;
+
+  .contact__bot {
+    width: 80%;
+    margin: 0 auto;
+    textarea {
+      width: 430px;
+      height: 90px;
+    }
+    button {
+      color: #fff;
+      background: #222;
+      border-radius: 0;
+      width: 100%;
+    }
+    .form-group {
+      input {
+        &:focus {
+          outline: none;
+          border: 1px solid black;
+          box-shadow: none;
+        }
+      }
+      textarea {
+        &:focus {
+          outline: none;
+          border: 1px solid black;
+          box-shadow: none;
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .contact__bot textarea {
+      width: 309px;
+    }
+  }
+}

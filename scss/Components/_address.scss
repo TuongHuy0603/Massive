@@ -1,0 +1,31 @@
+.address {
+  background: url(../../img/15.jpg);
+  color: white;
+  text-align: center;
+  .container {
+    padding: 150px 0;
+    .col-lg-4 {
+      padding: 0 $pd-2;
+      i {
+        font-size: $fs-3;
+        padding-bottom: $pd-2;
+      }
+      h4 {
+        font-size: $fs-1;
+        margin-bottom: $mg-1;
+      }
+      .desc {
+        font-size: $fs-0;
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .col-md-12 {
+      margin-bottom: $mg-2;
+    }
+    .row {
+      width: 100%;
+      margin: 0;
+    }
+  }
+}

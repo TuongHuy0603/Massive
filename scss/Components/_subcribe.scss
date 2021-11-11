@@ -1,0 +1,37 @@
+.subcribe {
+  padding: 100px;
+  background: #f8f8f8;
+  .subcribe__content {
+    form {
+      display: flex;
+      justify-content: center;
+    }
+    input {
+      width: 33%;
+      height: 52px;
+      padding: 6px 12px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      border: 1px solid #fff;
+      border-radius: 3px;
+    }
+  }
+  h3 {
+    color: $color-white0;
+  }
+  p {
+    color: $color-gray1;
+  }
+  button {
+    margin-left: 10px;
+    padding: 15px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #fff;
+    background: #222;
+    border-radius: 3px;
+    border: 1px solid #222;
+  }
+}

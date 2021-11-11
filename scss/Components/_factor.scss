@@ -1,0 +1,41 @@
+.factor {
+  background: url(../../img/7.jpg);
+  background-attachment: fixed;
+  padding: $pd-4 0;
+  color: white;
+  .factor__item {
+    &:before {
+      position: absolute;
+
+      left: 75px;
+      width: 1px;
+      height: 80px;
+      content: "";
+      transform: rotate(30deg);
+      background: rgba(255, 255, 255, 0.4);
+    }
+    position: relative;
+    display: flex;
+    padding: $pd-4 $pd-2;
+    i {
+      font-size: $fs-3;
+      align-items: center;
+    }
+    .desc {
+      padding-left: $pd-4;
+      h1 {
+        font-size: $fs-3;
+      }
+      p {
+        font-size: $fs-0;
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .factor__item {
+      .desc {
+        padding-left: $pd-3;
+      }
+    }
+  }
+}

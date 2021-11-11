@@ -1,0 +1,22 @@
+.subcribe {
+  padding: 100px;
+  background: #f8f8f8;
+}
+
+.subcribe .subcribe__content input {
+  width: 75% !important;
+  height: 52px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+}
+
+.subcribe .subcribe__content button {
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  background: #222;
+}
+/*# sourceMappingURL=subcribe.css.map */

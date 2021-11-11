@@ -1,0 +1,108 @@
+.testimonial {
+  background: url(../../img/14.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+
+  background-size: cover;
+
+  .container {
+    .owl-theme .owl-dots {
+      text-align: right;
+      left: 90%;
+      transform: translateY(-40px);
+    }
+    .owl-theme .owl-controls .owl-page.active span {
+      background: #ffffff;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+      background: $color-gray1;
+      border: 1px solid $color-gray1;
+    }
+    .owl-theme {
+    }
+
+    .row {
+      height: 100%;
+      margin-top: $mg-3;
+
+      .testimonial__left {
+        height: 100%;
+        img {
+          overflow: visible;
+          width: 100%;
+          height: 400px;
+        }
+      }
+      .testimonial__right {
+        transform: translateY(-100px);
+        padding: $pd-4 + 100 0 $pd-2 $pd-4;
+        text-align: left;
+        h4 {
+          letter-spacing: 2px;
+          color: $color-white0;
+          font-size: $fs-1;
+          margin-bottom: $mg-2;
+        }
+        p {
+          margin-bottom: $mg-2;
+          font-size: $fs-0 + 1;
+          color: white;
+
+          font-style: italic;
+          line-height: 30px;
+        }
+
+        a {
+          padding: $pd-0 $pd-1 + 5;
+          margin-right: $mg-1;
+          font-size: $fs-4 - 1;
+          color: #fff;
+
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 4px;
+          transition: all 0.5s;
+
+          &:hover {
+            background: $color-white0;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  @media only screen and (min-width: 375px) and (max-width: 415px) {
+    .container {
+      .owl-theme .owl-nav.disabled + .owl-dots {
+        bottom: 75px;
+        left: 70%;
+      }
+      .row {
+        text-align: center;
+        .testimonial__left {
+          img {
+            display: none;
+          }
+        }
+        .testimonial__right {
+          padding: $pd-4 0;
+          h4 {
+            text-align: center;
+            width: 80%;
+            margin: 0 auto $mg-2;
+          }
+          p {
+            text-align: center;
+            width: 80%;
+            margin: 0 auto $mg-2;
+          }
+          a {
+            display: inline-block;
+            text-align: center;
+            margin: 0 0 0 39%;
+          }
+        }
+      }
+    }
+  }
+}
