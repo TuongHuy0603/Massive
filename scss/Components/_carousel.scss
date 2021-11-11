@@ -41,16 +41,16 @@
   }
 }
 .item1 {
-  background: url(../../img/bs1.jpg);
+  background: url(./../img/bs1.jpg);
   height: 891px;
 }
 .item2 {
-  background: url(../../img/bs2.jpg);
+  background: url(./../img/bs2.jpg);
 
   height: 891px;
 }
 .item3 {
-  background: url(../../img/bs3.jpg);
+  background: url(./../img/bs3.jpg);
   height: 891px;
   .carousel__content {
     animation-delay: 1s;

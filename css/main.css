@@ -299,7 +299,7 @@ header {
 
 .skills {
   color: white;
-  background: url(../../img/4.jpg);
+  background: url(./../img/4.jpg);
   background-attachment: fixed;
   background-position: center;
   height: 100%;
@@ -780,7 +780,7 @@ header {
 }
 
 .testimonial {
-  background: url(../../img/14.jpg);
+  background: url(./../img/14.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 500px;
@@ -1334,17 +1334,17 @@ header {
 }
 
 .item1 {
-  background: url(../../img/bs1.jpg);
+  background: url(./../img/bs1.jpg);
   height: 891px;
 }
 
 .item2 {
-  background: url(../../img/bs2.jpg);
+  background: url(./../img/bs2.jpg);
   height: 891px;
 }
 
 .item3 {
-  background: url(../../img/bs3.jpg);
+  background: url(./../img/bs3.jpg);
   height: 891px;
 }
 
@@ -1430,7 +1430,7 @@ header {
 }
 
 .factor {
-  background: url(../../img/7.jpg);
+  background: url(./../img/7.jpg);
   background-attachment: fixed;
   padding: 100px 0;
   color: white;
@@ -1481,7 +1481,7 @@ header {
 }
 
 .review {
-  background: url(../../img/14.jpg);
+  background: url(./../img/14.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -1587,14 +1587,14 @@ header {
 }
 
 .new .new__content .new__left {
-  background: url(../../img/p10.jpg);
+  background: url(./../img/p10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10% 5%;
 }
 
 .new .new__content .new__right {
-  background: url(../../img/p11.jpg);
+  background: url(./../img/p11.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 10% 5%;
@@ -1693,7 +1693,7 @@ header {
 }
 
 .address {
-  background: url(../../img/15.jpg);
+  background: url(./../img/15.jpg);
   color: white;
   text-align: center;
 }
